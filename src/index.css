@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+
+}
+.app{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    font-family: DejaVu Sans Mono, monospace;
+    background-color: #94a9f5;
+}
+
+.card{
+   padding: 40px;
+   max-width: 400px;
+   max-height: 500px;
+   place-self: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+   
+}
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.search input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: black;
+}
+.search-icon{
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    height:20px;
+    width: 20px;
+    background-color: #ffffff;
+}
+.temperature{
+    text-align: center;
+}
+.temperature img{
+    height: 200px;
+}
+.temperature p{
+    font-size: 40px;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+}
+.col-img{
+    height: 50px;
+    width: 50px;
+}
+.col-p{
+    font-size: 20px;
+}
+.wind-flex, .humidity-flex{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: 400;
+    font-size:25px;
+}
+
+.wind p,.humidity p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
